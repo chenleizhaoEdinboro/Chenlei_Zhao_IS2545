@@ -1,0 +1,9 @@
+
+For the project of web testing of Ruby Compilation Visualizer with BDD model: 
+Besides the tools described in the deliverable3 document, I have developed three user stories: RBCVTestOne.java, RBCVTestTwo.java, RBCVTestThree.java coresponding to three main function of the application: Tokenize, Parse and Compile.
+For each user story, I have generatated 4 to 5 scenarios which tests whether the header shows the correct status remainder after the operation. According to the description of compilation process in deliverable3, the test scenarios are mainly focus on the appearance of whitespace, newline characters ,identifiers and operators, to see if these are correctly been tokenized, parsed and compiled.
+After the tests, I have explored two flaws of the Ruby Compilation Visualizer:
+
+1. The tokenize for newline charater fails which testes in the user story one program RBCVTestOne.java, user scenario 4.
+
+2. Failure of parse :on_op on the parsing tree after type in 1+1 for the plus operator in user case Two senario 4 in the program RBCVTestTwo.java.
